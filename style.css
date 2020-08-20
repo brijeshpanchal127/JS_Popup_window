@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* body{
+ background-image: url("https://source.unsplash.com/1600x900/?nature,water");
+} */
+section{
+  background-image: url("https://source.unsplash.com/1600x900/?nature,water");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  /* filter: blur(6px); */
+}
+.center{
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  margin: 40px;
+  text-transform: capitalize;
+}
+button{
+  margin: 0 auto;
+  height: 60px;
+  width: 500px;
+  background-image: url("https://source.unsplash.com/1600x900/?nature");
+  border: none;
+  border-radius: 6px;
+  font-size: 25px;
+  color: #000;
+  cursor: pointer;
+}
